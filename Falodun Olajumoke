@@ -16,8 +16,8 @@
   <!-- About Section -->
   <section id="about">
     <h2>About Me</h2>
-    <p>Hello! I'm a business development professional with a passion for helping businesses grow. My mission is to empower organizations through strategic planning and innovative solutions.</p>
-    <a href="resume.pdf" download>Download My Resume</a>
+    <p>Hello! I'm Falodun-Olorunfemi Olajumoke a business development professional with a passion for helping businesses grow. My mission is to empower organizations through strategic planning and innovative solutions.</p>3786.jpg
+    <a Olorunfemi Olajumoke.pdf>Download My Resume</a>
   </section>
 
   <!-- Services Section -->
@@ -35,7 +35,7 @@
   <!-- Case Studies Section -->
   <section id="projects">
     <h2>Case Studies</h2>
-    <p>Explore detailed write-ups of past projects showcasing goals, processes, and impact.</p>
+    <p>Explore my past projects showcasing goals, processes, and impact.</p>TBH Logo.png </p>lolo logo.png </p>wedding jotterArtboard 1.jpg</p>
     <!-- Add filters and project tiles here -->
   </section>
 
@@ -52,7 +52,19 @@
   <section id="blog">
     <h2>Insights</h2>
     <p>Read my thoughts on business trends, growth strategies, and client stories.</p>
-    <!-- Add blog entries dynamically -->
+    <!-- Business trends. Growth strategies. Real client stories.
+
+Stay inspired and informed with my latest insights into the world of business development. I write about what’s shaping industries, the strategies that drive sustainable growth, and the behind-the-scenes stories of how real clients turned challenges into success. Whether you’re a founder, marketer, or executive decision-maker, there’s something here for you.
+
+🔍 What you’ll find:
+Emerging Business Trends
+Understand what’s next—from digital transformation to shifting consumer behaviors—and how you can stay ahead of the curve.
+
+Growth Strategies That Work
+I break down real-world strategies across different business models and sectors—no fluff, just actionable insights.
+
+Client Stories & Case Studies
+From initial consultations to breakthrough results, I share the journeys of businesses I’ve worked with. These are stories of resilience, pivots, and purpose. -->
   </section>
 
   <!-- Contact Section -->
@@ -60,9 +72,9 @@
     <h2>Contact Me</h2>
     <form action="submit-form.php" method="post">
       <label for="name">Your Name</label>
-      <input type="text" id="name" name="name" required>
+      <input type="text" id="Falodun" Olorunfemi="Olajumoke" required>
       <label for="email">Your Email</label>
-      <input type="email" id="email" name="email" required>
+      <input type="email" id="email" name="olajumokeolorunfemiofficial@gnail.com" required>
       <label for="message">Your Message</label>
       <textarea id="message" name="message" required></textarea>
       <button type="submit">Submit</button>
