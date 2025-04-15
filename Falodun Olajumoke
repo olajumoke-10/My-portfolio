@@ -1,44 +1,93 @@
-                                                                                                                                                                                                                                                                <header>
-                                                                                                                                                                                                                                                                    <h1>Falodun-Olorunfemi Olajumoke</h1>
-                                                                                                                                                                                                                                                                        <p>Business Development | Brand Strategy | Financial Inclusion</p>
-                                                                                                                                                                                                                                                                          </header>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Business Development Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header Section -->
+  <header>
+    <h1>Welcome to My Portfolio</h1>
+    <p>Your Partner in Business Growth</p>
+  </header>
 
-                                                                                                                                                                                                                                                                            <div class="section">
-                                                                                                                                                                                                                                                                                <h2>About Me</h2>
-                                                                                                                                                                                                                                                                                    <p>
-                                                                                                                                                                                                                                                                                          I am a dynamic Business Development and Brand Strategy expert with experience across microfinance, financial inclusion, and SME growth. Passionate about driving innovative, people-centered solutions for African communities, especially women and youth.
-                                                                                                                                                                                                                                                                                              </p>
-                                                                                                                                                                                                                                                                                                </div>
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hello! I'm a business development professional with a passion for helping businesses grow. My mission is to empower organizations through strategic planning and innovative solutions.</p>
+    <a href="resume.pdf" download>Download My Resume</a>
+  </section>
 
-                                                                                                                                                                                                                                                                                                  <div class="section">
-                                                                                                                                                                                                                                                                                                      <h2>Skills & Expertise</h2>
-                                                                                                                                                                                                                                                                                                          <ul>
-                                                                                                                                                                                                                                                                                                                <li>Business Development Strategy</li>
-                                                                                                                                                                                                                                                                                                                      <li>Financial Product Design</li>
-                                                                                                                                                                                                                                                                                                                            <li>Brand Positioning and Marketing</li>
-                                                                                                                                                                                                                                                                                                                                  <li>Partnership Development</li>
-                                                                                                                                                                                                                                                                                                                                        <li>Digital Transformation Projects</li>
-                                                                                                                                                                                                                                                                                                                                            </ul>
-                                                                                                                                                                                                                                                                                                                                              </div>
+  <!-- Services Section -->
+  <section id="services">
+    <h2>Services Offered</h2>
+    <ul>
+      <li>Business Strategy Consulting</li>
+      <li>Market Research & Expansion</li>
+      <li>Partnership Development</li>
+      <li>Brand Positioning</li>
+      <li>Sales Pipeline Building</li>
+    </ul>
+  </section>
 
-                                                                                                                                                                                                                                                                                                                                                <div class="section">
-                                                                                                                                                                                                                                                                                                                                                    <h2>Selected Projects</h2>
-                                                                                                                                                                                                                                                                                                                                                        <ul>
-                                                                                                                                                                                                                                                                                                                                                              <li><strong>SME Loan Product:</strong> Designed and deployed inclusive credit offerings for small businesses in underserved communities.</li>
-                                                                                                                                                                                                                                                                                                                                                                    <li><strong>Insurance Inclusion:</strong> Led microinsurance partnerships to protect vulnerable women and farmers.</li>
-                                                                                                                                                                                                                                                                                                                                                                          <li><strong>Youth Engagement Project:</strong> Spearheaded digital skills training and financial education across Oyo, Osun, and Niger States.</li>
-                                                                                                                                                                                                                                                                                                                                                                              </ul>
-                                                                                                                                                                                                                                                                                                                                                                                </div>
+  <!-- Case Studies Section -->
+  <section id="projects">
+    <h2>Case Studies</h2>
+    <p>Explore detailed write-ups of past projects showcasing goals, processes, and impact.</p>
+    <!-- Add filters and project tiles here -->
+  </section>
 
-                                                                                                                                                                                                                                                                                                                                                                                  <div class="section">
-                                                                                                                                                                                                                                                                                                                                                                                      <h2>Contact</h2>
-                                                                                                                                                                                                                                                                                                                                                                                          <p>Email: <a href="mailto:olajumoke@example.com">olajumoke@example.com</a></p>
-                                                                                                                                                                                                                                                                                                                                                                                              <p>LinkedIn: <a href="https://linkedin.com/in/olajumoke">linkedin.com/in/olajumoke</a></p>
-                                                                                                                                                                                                                                                                                                                                                                                                </div>
+  <!-- Testimonials Section -->
+  <section id="testimonials">
+    <h2>Client Testimonials</h2>
+    <blockquote>
+      <p>"Fantastic service and amazing results! Highly recommend."</p>
+      <cite>- Happy Client</cite>
+    </blockquote>
+  </section>
 
-                                                                                                                                                                                                                                                                                                                                                                                                  <footer>
-                                                                                                                                                                                                                                                                                                                                                                                                      <p>&copy; 2025 Falodun-Olorunfemi Olajumoke. All rights reserved.</p>
-                                                                                                                                                                                                                                                                                                                                                                                                        </footer>
+  <!-- Blog Section -->
+  <section id="blog">
+    <h2>Insights</h2>
+    <p>Read my thoughts on business trends, growth strategies, and client stories.</p>
+    <!-- Add blog entries dynamically -->
+  </section>
 
-                                                                                                                                                                                                                                                                                                                                                                                                        </body>
-                                                                                                                                                                                                                                                                                                                                                                                                        </html>
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form action="submit-form.php" method="post">
+      <label for="name">Your Name</label>
+      <input type="text" id="name" name="name" required>
+      <label for="email">Your Email</label>
+      <input type="email" id="email" name="email" required>
+      <label for="message">Your Message</label>
+      <textarea id="message" name="message" required></textarea>
+      <button type="submit">Submit</button>
+    </form>
+    <a href="https://calendly.com/your-calendar" target="_blank">Book a Consultation</a>
+  </section>
+
+  <!-- Resources Section -->
+  <section id="resources">
+    <h2>Free Resources</h2>
+    <p>Download strategy guides, templates, and more to help your business thrive.</p>
+  </section>
+
+  <!-- Newsletter Section -->
+  <section id="newsletter">
+    <h2>Stay Updated</h2>
+    <form action="subscribe.php" method="post">
+      <label for="email">Your Email</label>
+      <input type="email" id="email" name="email" required>
+      <button type="submit">Subscribe</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Your Name. All rights reserved.</p>
+  </footer>
+</body>
+</html>
